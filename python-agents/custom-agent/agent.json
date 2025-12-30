@@ -30,7 +30,7 @@
 {
   "meta": {
     "label": "Custom agent tutorial",
-    "description": "DevAdvocacy -- Custom Agent Tutorial",
+    "description": "Custom Agent Tutorial",
     "icon": "fas fa-magic"
   },
   "supportsImageInputs": false,
