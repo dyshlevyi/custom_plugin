@@ -12,8 +12,8 @@ from dataiku import SQLExecutor2
 from duckduckgo_search import DDGS
 from dataiku.sql import Constant, toSQL, Dialects
 
-OPENAI_CONNECTION_NAME = "REPLACE_WITH_YOUR_CONNECTION_NAME"
-model = DKUChatModel(llm_id=f"openai:{OPENAI_CONNECTION_NAME}:gpt-4o-mini")
+OPENAI_CONNECTION_NAME = "Azure-OpenAI"  # example: "openAI"
+model = DKUChatModel(llm_id=f"azureopenai:{OPENAI_CONNECTION_NAME}:gpt-4o-mini")
 
 @tool
 def search_company_info(company_name: str) -> str:
