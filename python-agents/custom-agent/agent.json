@@ -12,7 +12,7 @@
 //    },
 
     // Whether this agent can take images as input
-    "supportsImageInputs": true,
+//    "supportsImageInputs": true,
 
     /* params:
     DSS will generate a form from this list of requested parameters.
