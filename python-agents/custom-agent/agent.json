@@ -2,7 +2,7 @@
 //{
 //    "meta" : {
         // label: name of the agent as displayed, should be short
-        "label": "Custom agent custom-agent",
+//        "label": "Custom agent custom-agent",
 
         // description: longer string to help end users understand what this agent does.
         "description": "This is the description of the custom agent custom-agent",
