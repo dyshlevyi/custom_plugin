@@ -1,6 +1,6 @@
 /* This file is the descriptor for custom agent custom-agent */
-{
-    "meta" : {
+//{
+//    "meta" : {
         // label: name of the agent as displayed, should be short
         "label": "Custom agent custom-agent",
 
@@ -9,7 +9,7 @@
 
         // icon: must be one of the FontAwesome 5.15.4 icons, complete list here at https://fontawesome.com/v5/docs/
         "icon": "fas fa-magic"
-    },
+//    },
 
     // Whether this agent can take images as input
     "supportsImageInputs": true,
@@ -23,6 +23,23 @@
 
     For the full list and for more details, see the documentation: https://doc.dataiku.com/dss/latest/plugins/reference/params.html
     */
-    "params": [
-    ]
+//    "params": [
+//    ]
+//}
+
+{
+  "meta": {
+    "label": "Custom agent tutorial",
+    "description": "DevAdvocacy -- Custom Agent Tutorial",
+    "icon": "fas fa-magic"
+  },
+  "supportsImageInputs": false,
+  "params": [
+    {
+      "name": "dataset_name",
+      "label": "Customer SQL Dataset",
+      "type": "DATASET",
+      "mandatory": true
+    }
+  ]
 }
